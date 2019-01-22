@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="root" prefHeight="339.0" prefWidth="345.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.dep.jdbc.controller.MainFormController">
+   <children>
+      <JFXButton layoutX="14.0" layoutY="118.0" onAction="#btnAddNew_OnAction" prefHeight="57.0" prefWidth="317.0" style="-fx-background-color: #5158FF; -fx-text-fill: white;" text="Add New Student">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="14.0" layoutY="191.0" onAction="#btnSearch_OnAction" prefHeight="57.0" prefWidth="317.0" style="-fx-background-color: Orange; -fx-text-fill: white;" text="Search Student">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="14.0" layoutY="263.0" onAction="#btnViewAll_OnAction" prefHeight="57.0" prefWidth="317.0" style="-fx-background-color: green; -fx-text-fill: white;" text="View All Students">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </JFXButton>
+      <Label layoutX="20.0" layoutY="49.0" text="Student Management System">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

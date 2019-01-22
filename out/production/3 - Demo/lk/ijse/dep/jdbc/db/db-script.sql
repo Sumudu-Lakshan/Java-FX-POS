@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS Student (
+  id VARCHAR (20) NOT NULL,
+  name VARCHAR(40) NOT NULL,
+  address VARCHAR(100) NOT NULL,
+  contact_number VARCHAR(15) NOT NULL,
+  CONSTRAINT pk_id PRIMARY KEY (id)
+) ;
+

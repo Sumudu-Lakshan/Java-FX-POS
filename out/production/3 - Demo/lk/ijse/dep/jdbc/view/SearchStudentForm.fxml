@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="345.0" prefWidth="328.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.dep.jdbc.controller.SearchStudentFormController">
+    <children>
+        <JFXTextField fx:id="txtStudentID" onAction="#txtStudentId_OnAction" layoutX="14.0" layoutY="76.0" prefHeight="28.0" prefWidth="286.0" promptText="Enter Student ID" />
+        <JFXTextField fx:id="txtStudentName" layoutX="14.0" layoutY="163.0" prefHeight="28.0" prefWidth="286.0" promptText="Enter Student Name" />
+        <JFXTextField fx:id="txtStudentAddress" layoutX="14.0" layoutY="212.0" prefHeight="28.0" prefWidth="286.0" promptText="Enter Student Address" />
+        <JFXTextField fx:id="txtStudentContactNumber" layoutX="14.0" layoutY="257.0" prefHeight="28.0" prefWidth="286.0" promptText="Enter Student Contact Number" />
+        <JFXButton fx:id="btnUpdate" layoutX="39.0" layoutY="303.0" onAction="#btnUpdate_OnAction" style="-fx-background-color: #2FFF43; -fx-text-fill: black;" text="Update Student" />
+        <Label layoutX="14.0" layoutY="14.0" text="Search Student">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label layoutX="277.0" layoutY="21.0" onMouseClicked="#lblHome_OnClick" text="Home" textFill="#6600ff">
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </Label>
+      <JFXButton fx:id="btnDelete" layoutX="175.0" layoutY="303.0" onAction="#btnDelete_OnAction" style="-fx-background-color: red; -fx-text-fill: white;" text="Delete Student" />
+      <JFXButton fx:id="btnEdit" layoutX="14.0" layoutY="124.0" onAction="#btnEdit_OnAction" style="-fx-background-color: orange; -fx-text-fill: white;" text="Edit" />
+    </children>
+</AnchorPane>
